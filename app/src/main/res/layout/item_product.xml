@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/product_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/category_textview_bg"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp"
+            android:textColor="@color/bg_discount"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgProduct_item"
+                android:layout_width="match_parent"
+                android:src="@drawable/fruit_home"
+                android:layout_marginRight="10dp"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNameProduct_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="rau muong"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPriceProduct_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="15000"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvOldProduct_item"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:text="15000"-->
+<!--                android:textColor="@color/secondary_text"-->
+<!--                android:textSize="16dp" />-->
+
+
+        </LinearLayout>
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="center"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--          -->
+        <!--        </LinearLayout>-->
+
+        <Button
+            android:id="@+id/btn_addCart_item"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/radius_dialog"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_add_shopping_cart_24"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:text="Thêm" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_updateProduct_item"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#4CAF50"
+                android:layout_marginRight="10dp"
+                android:text="Sửa"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_deleteProduct_item"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#F44336"
+                android:text="xoá"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

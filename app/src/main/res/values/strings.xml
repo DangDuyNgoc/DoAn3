@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Thực phẩm xanh</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_main">Trang Chủ</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_Product">Sản phẩm</string>
+    <string name="menu_Bill">Hóa đơn</string>
+    <string name="menu_statistic">Thống kê</string>
+
+    <string name="menu_account">Tài khoản</string>
+    <string name="menu_partner">Đối tác</string>
+    <string name="menu_sign_out">Đăng xuất</string>
+    <string name="menu_food">Sản phẩm </string>
+    <string name="menu_change_password">Đổi mật khẩu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="slide1_heading">Xin chào!</string>
+    <string name="slide2_heading">Chất lượng hàng đầu</string>
+    <string name="slide3_heading">Lựa chọn đa dạng</string>
+
+    <string name="slide1_infor">Mua sắm thông minh chỉ trong vài bước chạm</string>
+    <string name="slide2_infor">Sản phẩm Hữu cơ: Tươi - Sạch - Đáng tin cậy</string>
+    <string name="slide3_infor">Sản phẩm đa dạng, mức giá hợp lý</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="already_user">Đã có tài khoản? Đăng Nhập.</string>
+    <string name="next_btn">Next</string>
+    <string name="started_btn">Bắt đầu</string>
+    <string name="remember_account">Ghi nhớ tài khoản</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="sign_up">Tạo Tài Khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="update_profile">Lưu</string>
+    <string name="donHang">Đơn hàng</string>
+    <string name="uuDai">Ưu đãi</string>
+    <string name="trangChu">Trang chủ</string>
+    <string name="caNhan">Cá nhân</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Product"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="@string/menu_Product" />
+        <item
+            android:id="@+id/nav_Food"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="@string/menu_food" />
+        <item
+            android:id="@+id/nav_Bill"
+            android:icon="@drawable/ic_baseline_receipt_long_24"
+            android:title="@string/menu_Bill" />
+        <item
+            android:id="@+id/nav_Partner"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="@string/menu_partner" />
+        <item
+            android:id="@+id/nav_statistic"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="@string/menu_statistic" />
+
+    </group>
+<!--    <item android:title="Account">-->
+<!--        <menu>-->
+<!--            <item android:id="@+id/nav_my_profile"-->
+<!--                android:title="@string/menu_account"-->
+<!--                android:icon="@drawable/ic_baseline_account_circle_24"/>-->
+<!--            <item android:id="@+id/nav_change_password"-->
+<!--                android:title="@string/menu_change_password"-->
+<!--                android:icon="@drawable/ic_baseline_password_24"/>-->
+<!--            <item android:id="@+id/nav_sign_out"-->
+<!--                android:title="@string/menu_sign_out"-->
+<!--                android:icon="@drawable/ic_baseline_exit_to_app_24"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>

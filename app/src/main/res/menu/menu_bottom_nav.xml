@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/trangChu"
+        />
+<!--    <item-->
+<!--        android:id="@+id/action_voucher"-->
+<!--        android:icon="@drawable/voucher"-->
+<!--        android:title="@string/uuDai"-->
+<!--        />-->
+    <item
+        android:id="@+id/action_order"
+        android:icon="@drawable/order"
+        android:title="@string/donHang"
+        />
+    <item
+        android:id="@+id/action_personal"
+        android:icon="@drawable/ic_person"
+        android:title="@string/caNhan"
+        />
+</menu>

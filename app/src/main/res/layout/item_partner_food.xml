@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_partner_food"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:minHeight="70dp"
+    app:cardElevation="1dp"
+    android:layout_margin="8dp">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/show_favorite_item_tv"-->
+    <!--        android:text="Rau dền"-->
+    <!--        android:textColor="#FAF6F6"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:textStyle="bold"/>-->
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:padding="15dp">
+      <ImageView
+          android:id="@+id/imgPartner_food"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginRight="10dp"/>
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="22dp"
+              android:text="Đối tác A"
+              android:textColor="#F44336"
+              android:layout_gravity="center"
+              android:id="@+id/namePartner_food"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16dp"
+              android:layout_gravity="center"
+              android:text="Đại Mỗ - Nam Từ Liêm-Hà Nội"
+              android:id="@+id/addressPartner_food"
+              />
+      </LinearLayout>
+  </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

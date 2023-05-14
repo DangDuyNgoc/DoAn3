@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.thucphamxanh2.Fragment.BottomNav.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Product"
+        android:name="com.example.thucphamxanh2.Fragment.ProductFragments.ProductFragment"
+        android:label="@string/menu_Product"
+        tools:layout="@layout/fragment_product" />
+
+    <fragment
+        android:id="@+id/nav_Bill"
+        android:name="com.example.thucphamxanh2.Fragment.Bill.BillFragment"
+        android:label="@string/menu_Bill"
+        tools:layout="@layout/fragment_bill" />
+
+    <fragment
+        android:id="@+id/nav_statistic"
+        android:name="com.example.thucphamxanh2.Fragment.BottomNav.StatisticalFragment"
+        android:label="@string/menu_statistic"
+        tools:layout="@layout/fragment_statistical" />
+    <fragment
+        android:id="@+id/nav_my_profile"
+        android:name="com.example.thucphamxanh2.Fragment.Profile.ProfileFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/nav_Partner"
+        android:name="com.example.thucphamxanh2.Fragment.PartnerFragment"
+        android:label="@string/menu_partner"
+        tools:layout="@layout/fragment_partner"/>
+    <fragment
+        android:id="@+id/nav_Food"
+        android:name="com.example.thucphamxanh2.Fragment.ProductFragments.FoodFragment"
+        android:label="@string/menu_food"
+        tools:layout="@layout/fragment_partner"/>
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.thucphamxanh2.Fragment.BottomNav.ChangePasswordFragment"
+        android:label="@string/menu_change_password"
+        tools:layout="@layout/fragment_change_password"/>
+</navigation>

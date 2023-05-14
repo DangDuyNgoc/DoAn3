@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/personalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    android:gravity="center"
+    android:background="@drawable/background_personal"
+    tools:context=".Fragment.BottomNav.PersonalFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/item_person">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_PersonalFragment_imgUser"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="15dp"
+                tools:src="@drawable/profile" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_PersonalFragment_nameUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="...."
+                    android:textColor="@color/text_color"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_PersonalFragment_phoneUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="0987654321"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_PersonalFragment_changePasswordPersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient_bg"
+        android:layout_marginBottom="20dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:text="Đổi mật khẩu" />
+    <Button
+        android:id="@+id/btn_PersonalFragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_bg"
+        android:text="Đăng Nhập"
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_exit_to_app_24" />
+
+    <Button
+        android:id="@+id/btn_PersonalFragment_logoutPersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_bg"
+        android:text="Đăng xuất"
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_exit_to_app_24" />
+
+</LinearLayout>

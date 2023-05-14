@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88152563863",
+    "firebase_url": "https://thucpham-b4057-default-rtdb.firebaseio.com",
+    "project_id": "thucpham-b4057",
+    "storage_bucket": "thucpham-b4057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88152563863:android:53866f71759c805c1309d2",
+        "android_client_info": {
+          "package_name": "com.example.thucphamxanh2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88152563863-2dr5p5199skhnk17ae95q73ejijh5r07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thucphamxanh2",
+            "certificate_hash": "592a8deb2681b356b1b9d9f04ab659dcf7ff6ffe"
+          }
+        },
+        {
+          "client_id": "88152563863-pf1pufcgbv5che7efkvfgfs7t5vitjhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5CrKCBpJLX5drcX8iTJ4A56-xeiYrtJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88152563863-pf1pufcgbv5che7efkvfgfs7t5vitjhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
