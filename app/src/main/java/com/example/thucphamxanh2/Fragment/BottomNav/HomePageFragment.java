@@ -24,6 +24,7 @@ import android.widget.LinearLayout;
 
 import com.example.thucphamxanh2.Adapter.HomeSliderAdapter;
 import com.example.thucphamxanh2.Adapter.ProductAdapter;
+import com.example.thucphamxanh2.Fragment.ProductFragments.FoodFragment;
 import com.example.thucphamxanh2.Fragment.ProductFragments.FruitFragment;
 import com.example.thucphamxanh2.Fragment.ProductFragments.MeatFragment;
 import com.example.thucphamxanh2.Fragment.ProductFragments.ProductFragment;
@@ -121,6 +122,7 @@ public class HomePageFragment extends Fragment {
         rv_FruitTop_Home = view.findViewById(R.id.rv_FruitTop_Home);
         rv_MeatTop_Home = view.findViewById(R.id.rv_MeatTop_Home);
         rv_FoodTop_Home = view.findViewById(R.id.rv_FoodTop_Home);
+
         card_vegetable_home.setOnClickListener(view1 -> {
             fragmentManager.beginTransaction().replace(R.id.frame_Home, new VegetableFragment(),null).addToBackStack(null).commit();
 
@@ -134,7 +136,7 @@ public class HomePageFragment extends Fragment {
         });
         card_food_home.setOnClickListener(view1 -> {
 
-            fragmentManager.beginTransaction().replace(R.id.frame_Home, new PartnerFoodFragment(),null).addToBackStack(null).commit();
+            fragmentManager.beginTransaction().replace(R.id.frame_Home, new FoodFragment(),null).addToBackStack(null).commit();
         });
 
 
@@ -175,11 +177,11 @@ public class HomePageFragment extends Fragment {
             @Override
             public void onPageSelected(int position) {
 
-                for (int i = 0; i < dotsCount; i++) {
-                    dots[i].setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.non_active_dot));
-                }
-
-                dots[position].setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.active_dot));
+//                for (int i = 0; i < dotsCount; i++) {
+//                    dots[i].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.non_active_dot));
+//                }
+//
+//                dots[position].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.active_dot));
 
             }
 

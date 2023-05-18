@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity{
                 R.id.nav_home,
                 R.id.nav_Product,
                 R.id.nav_Bill,
-                R.id.nav_Partner,
+//                R.id.nav_Partner,
                 R.id.nav_Food)
                 .setOpenableLayout(mDrawerLayout)
                 .build();
@@ -244,7 +244,7 @@ public class MainActivity extends AppCompatActivity{
                         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
                         mNavigationView.setVisibility(View.VISIBLE);
                         mNavigationView.getMenu().findItem(R.id.nav_Product).setVisible(false);
-                        mNavigationView.getMenu().findItem(R.id.nav_Partner).setVisible(false);
+//                        mNavigationView.getMenu().findItem(R.id.nav_Partner).setVisible(false);
                     }
 
                     @Override

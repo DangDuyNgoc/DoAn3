@@ -64,7 +64,7 @@ public class ProductFragment extends Fragment {
     private int codeCategory;
     private Button btn_addVegetable,btn_cancleVegetable;
     private Spinner sp_nameCategory;
-    private String[] arr = {"Rau củ","Hoa quả","Thịt", "Đồ ăn"};
+    private String[] arr = {"Rau củ","Hoa quả","Thịt-Hải Sản", "Nước Uống"};
     private ArrayAdapter<String> adapterSpiner;
     private SharedPreferences sharedPreferences;
 
@@ -97,9 +97,9 @@ public class ProductFragment extends Fragment {
                         break;
                     case 1: tab.setText("Hoa quả");
                         break;
-                    case 2:tab.setText("Thịt");
+                    case 2:tab.setText("Thịt-Hải Sản");
                         break;
-                    case 3:tab.setText("Đồ ăn");
+                    case 3:tab.setText("Nước Uống");
                         break;
                 }
             }
@@ -209,9 +209,9 @@ public class ProductFragment extends Fragment {
                     codeCategory = 1;
                 }else if (category.equals("Hoa quả")){
                     codeCategory = 2;
-                }else  if (category.equals("Thịt")){
+                }else  if (category.equals("Thịt-Hải Sản")){
                     codeCategory = 3;
-                } else if(category.equals("Đồ ăn")) {
+                } else if(category.equals("Nước Uống ")) {
                     codeCategory = 4;
                 }
 

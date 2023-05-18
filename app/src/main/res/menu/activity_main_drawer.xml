@@ -21,10 +21,10 @@
             android:id="@+id/nav_Bill"
             android:icon="@drawable/ic_baseline_receipt_long_24"
             android:title="@string/menu_Bill" />
-        <item
-            android:id="@+id/nav_Partner"
-            android:icon="@drawable/ic_baseline_people_24"
-            android:title="@string/menu_partner" />
+<!--        <item-->
+<!--            android:id="@+id/nav_Partner"-->
+<!--            android:icon="@drawable/ic_baseline_people_24"-->
+<!--            android:title="@string/menu_partner" />-->
         <item
             android:id="@+id/nav_statistic"
             android:icon="@drawable/ic_baseline_attach_money_24"

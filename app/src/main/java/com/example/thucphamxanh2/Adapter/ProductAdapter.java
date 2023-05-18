@@ -189,14 +189,14 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.viewHold
         if (listCart.size() == 0) {
             cart.setIdCart(1);
             reference.child("1").setValue(cart);
-            Toast.makeText(context, "Bạn đã thêm sản phẩm vào giỏ hàng", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Đã thêm sản phẩm vào giỏ hàng", Toast.LENGTH_SHORT).show();
 
         } else {
             int i = listCart.size() - 1;
             int id = listCart.get(i).getIdCart() + 1;
             cart.setIdCart(id);
             reference.child("" + id).setValue(cart);
-            Toast.makeText(context, "Bạn đã thêm sản phẩm vào giỏ hàng", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Đã thêm sản phẩm vào giỏ hàng", Toast.LENGTH_SHORT).show();
         }
 
     }

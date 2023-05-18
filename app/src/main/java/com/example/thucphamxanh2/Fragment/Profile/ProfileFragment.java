@@ -325,14 +325,14 @@ public class ProfileFragment extends Fragment implements LocationListener {
                 if (user.getBitmapAvatar() != null) {
                     Glide.with(requireActivity())
                             .load(user.getBitmapAvatar())
-                            .error(R.drawable.ic_avatar_default)
+                            .error(R.drawable.profile)
                             .into(ivAvatar);
                     user.setBitmapAvatar(null);
                     Log.d(TAG, "onChanged() returned: " + "ảnh được chọn từ thư mục ảnh");
                 } else {
                     Glide.with(requireActivity())
                             .load(user.getStrUriAvatar())
-                            .error(R.drawable.ic_avatar_default)
+                            .error(R.drawable.profile)
                             .signature(new ObjectKey(Long.toString(System.currentTimeMillis())))
                             .into(ivAvatar);
                     Log.d(TAG, "onChanged() returned: " + "ảnh được lấy từ storage về");

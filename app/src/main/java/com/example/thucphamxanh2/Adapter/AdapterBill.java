@@ -57,11 +57,12 @@ import java.util.List;
             linearLayoutManager = new LinearLayoutManager(context);
             holder.rvItemOrder.setLayoutManager(linearLayoutManager);
             holder.rvItemOrder.setAdapter(adapterItemBill);
-            holder.tvidBill.setText("Mã HD :"+ bill.getIdBill());
+            holder.tvidBill.setText("Mã GD :"+ bill.getIdBill());
             holder.tvPhone.setText("Số điện thoại : "+bill.getIdClient());
             holder.tvTime.setText("Thời gian: "+bill.getTimeOut());
             holder.tvDay.setText(String.valueOf(bill.getDayOut()));
-            holder.tvTotal.setText(String.valueOf(bill.getTotal()));
+            holder.tvTotal.setText(String.valueOf(bill.getTotal()) + "đ");
+
             holder.linearLayout_item_product.setOnClickListener(view -> {
                 if (holder.rvItemOrder.getVisibility() == View.GONE){
                     holder.rvItemOrder.setVisibility(View.VISIBLE);
@@ -71,6 +72,7 @@ import java.util.List;
                     holder.img_drop_up.setImageResource(R.drawable.ic_arrow_drop_up);
                 }
             });
+
             holder.card_bill.setOnClickListener(view -> {
                 if (!role.equals("user")) {
                     if (holder.btn_updateStatusBill.getVisibility() == View.GONE) {

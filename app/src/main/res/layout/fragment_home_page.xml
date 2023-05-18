@@ -156,7 +156,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Đồ ăn"
+                            android:text="Nước Uống"
                             android:textAlignment="center" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -414,7 +414,7 @@
                                 android:textStyle="bold"
                                 android:textSize="20dp"
                                 android:fontFamily="@font/aclonica"
-                                android:text="Đồ ăn mua nhiều"/>
+                                android:text="Nước uống mua nhiều"/>
 
                             <ImageView
                                 android:id="@+id/arrow4"

@@ -370,7 +370,7 @@ public class SignUpActivity extends AppCompatActivity implements LocationListene
                 || strUserName.isEmpty()
                 || strAddress.isEmpty())
             throw new NullPointerException(FIELDS_EMPTY);
-        if (!strPhoneNumber.matches(REGEX_PHONE_NUMBER))
+        if (strPhoneNumber.matches(REGEX_PHONE_NUMBER))
             throw  new IllegalArgumentException(NUMBER_PHONE_INVALID);
         if (strPassword.length() < 6)
             throw  new IllegalArgumentException(PASSWORD_INVALID);

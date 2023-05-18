@@ -33,11 +33,12 @@
         android:name="com.example.thucphamxanh2.Fragment.Profile.ProfileFragment"
         android:label="@string/menu_account"
         tools:layout="@layout/fragment_profile"/>
-    <fragment
-        android:id="@+id/nav_Partner"
-        android:name="com.example.thucphamxanh2.Fragment.PartnerFragment"
-        android:label="@string/menu_partner"
-        tools:layout="@layout/fragment_partner"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_Partner"-->
+<!--        android:name="com.example.thucphamxanh2.Fragment.PartnerFragment"-->
+<!--        android:label="@string/menu_partner"-->
+<!--        tools:layout="@layout/fragment_partner"/>-->
     <fragment
         android:id="@+id/nav_Food"
         android:name="com.example.thucphamxanh2.Fragment.ProductFragments.FoodFragment"
